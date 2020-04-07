@@ -40,19 +40,6 @@ function increment()
 
 }
 
-/* JS statements
-Conditional statements:
-If statement
-Switch statement
-
-Loops:
-For loop
-While loop
-Do while loop
-
-Break
-*/
-
 function compare()
 {
     var charlie = 120;
@@ -71,68 +58,6 @@ function compare()
     else
     {
         alert("John is taller");
-    }
-
-}
-
-function IsTropical(fruit)//fruit is a variable and is an input parameter
-{
-    
-    var isTropical = false; //boolean variable: True or False
-
-    switch(fruit)
-    {
-        case "banana":
-            isTropical = true;
-            break;
-
-        case "papaya":
-            isTropical = true;
-            break;
-
-        case "tomato":
-            isTropical = false;
-            break;
-
-        case "mango":
-            isTropical = true;
-            break;
-
-        case "watermelon":
-            isTropical = true;
-            break;
-
-        default:
-            isTropical = false;            
-    }
-
-    alert("Is "+ fruit+ " tropical?"+ isTropical );
-
-}
-
-function Repeat( message )
-{
-    var counter = 0;
-    console.log("While loop:");
-    while (counter < 5)
-    {
-        console.log( message );
-        counter++; //You have to remember to increment the counter otherwise the loop will go on endlessly
-    }
-
-    counter = 0;
-    console.log("Do - While loop:");
-    do 
-    {
-        console.log( message );
-        counter++; //You have to remember to increment the counter otherwise the loop will go on endlessly
-    } while (counter < 5);
-
-    console.log("For loop:");
-    /************************************************* */
-    for(var counter=0; counter < 5; counter++)
-    {
-        console.log(message);
     }
 }
 
