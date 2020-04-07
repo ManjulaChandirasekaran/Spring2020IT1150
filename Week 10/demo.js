@@ -60,5 +60,3 @@ function compare()
         alert("John is taller");
     }
 }
-
-    
