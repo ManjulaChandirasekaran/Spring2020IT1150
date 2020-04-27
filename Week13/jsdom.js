@@ -111,3 +111,34 @@ function removeABox()
     var item = document.getElementById("header");
     item.parentNode.removeChild(item);
 }
+
+function Homework()
+{
+    
+    /*Task 1 - 
+    Get the paragraph with id="copyright" 
+    and update its background color to yellow
+    */
+
+    /*Task2
+    Get all buttons by tagname "button" 
+    loop through each element and 
+    assign the background color to lightgreen
+    */
+
+    /*Task3
+    Get all paragraphs by using the tagname "p"
+    loop through each element
+    and assign the classname "green"
+    */
+
+    /*Task 1
+    Create a new link
+    set the link's address (href) to "http://www.tri-c.edu"
+    set its text to "Link"
+    assign ClassA as its style
+    Add it as a child to the the div with id="parent"
+    */
+    
+}
+
