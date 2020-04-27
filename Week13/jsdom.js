@@ -132,7 +132,7 @@ function Homework()
     and assign the classname "green"
     */
 
-    /*Task 1
+    /*Task 4
     Create a new link
     set the link's address (href) to "http://www.tri-c.edu"
     set its text to "Link"
